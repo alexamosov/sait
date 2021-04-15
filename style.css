@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Nunito;
+}
+.menu ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 22px;
+  padding: 20px 0px;
+  color: white;
+
+}
+
+.menu{
+background-color: #2D2D2D;
+}
+
+
+.header{
+  padding: 50vh 0;
+  text-align: center;
+  color: white;
+  background-image: url(../img/mac.jpg);
+  background-size: cover;
+}
+
+.header_button button{
+padding: 15px 30px;
+background-image: url(../img/btn_back.jpg);
+background-size: cover;
+border: none;
+outline: none;
+border-radius: 10px;
+color: white;
+font-size: 22px;
+box-shadow: 5px 5px 20px -5px black;
+}
+
+
+.info_compuny{
+display: grid;
+grid-template-columns: 60% 40%;
+margin-top: 30px;
+}
+.image_info img{
+  border-radius: 10px;
+  width: 100%
+}
+.about_company{
+width: 70%;
+margin: 0 auto;
+}
+
+.company{
+ width: 100%;
+ background-color: black;
+ color: white;
+}
+.text_info p{
+text-align: justify;
+padding: 0 20px;
+}
+.about_company h1{
+text-align: center;
+margin-top: 30px
+}
+
+body{
+  background-color: black;
+}
+
+
+.command{
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin: 100px auto;
+}
+
+
+.member{
+  width: 40%;
+  border: 2px solid white;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+.member img{
+  width: 100%;
+  border-radius: 15px;
+  height: 450px;
+  object-fit: cover;
+}
+.member h2{
+  padding: 20px 0px;
+}
+.member p{
+  padding-bottom: 20px;
+}
+.command h1{
+  padding: 50px 0px;
+}
+.members{
+  display: flex;
+  justify-content: space-between;
+}
+.Watch{
+background-image: url(../img/Wa.png);
+padding: 130px 0px;
+background-size: cover;
+background-position: center;
+object-fit: cover;
+}
+
+
+.shop{
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin: 0px auto;
+}
+.item{
+  text-align: left;
+  padding: 20px;
+}
+
+
+.shop-items{
+  display: flex;
+}
+form{
+  width: 50%;
+  margin: 40px auto;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+
+}
+.feedback-input input{
+  display: block;
+  width: 100%;
+  margin: 15px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+}
+.feedback-submit input{
+  display: inline-block;
+}
+.feedback-submit label{
+  display: inline-block;
+}
+
+.feedback-submit button{
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  margin: auto;
+  box-shadow: 0px 0px 20px -5px white;
+  margin-top: 20px;
+}
+.feedback{
+  margin: 70px 10px;
+}
